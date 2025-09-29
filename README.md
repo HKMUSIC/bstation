@@ -84,6 +84,14 @@ Vercel does **not directly host FastAPI**. You can deploy your backend separatel
 
 ---
 
+## Deploy Frontend on Vercel
+
+You can deploy this React frontend directly to Vercel by clicking the button below:
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Hkmusic/bstation)
+
+> **Note:** This will deploy **frontend only**. Backend (FastAPI/Node) should be deployed separately (Render/Railway/Heroku), and then update the frontend `.env` with your backend URL.
+> 
 ### Notes
 
 - Make sure your backend is deployed before setting the API URL in the frontend.  
